@@ -14,7 +14,9 @@ const normalizeLocale = (locale: string) => {
     return "es-ES";
   } else if (locale.startsWith("vi")) {
     return "vi-VN";
-  } else{
+  } else if (locale.startsWith("pt")) {
+    return "pt-BR";
+  } else {
     return locale;
   }
 };

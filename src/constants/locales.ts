@@ -3,4 +3,5 @@ export default {
   "zh-CN": "简体中文",
   "es-ES": "Español",
   "vi-VN": "Tiếng Việt",
+  "pt-BR": "Português"
 } as const;
